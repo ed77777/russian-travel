@@ -1,0 +1,8 @@
+.header__logo {
+    position: absolute;
+    width: 176px;
+    height: 52px;
+    top: 28px;
+    left: 48px;
+    background-image: url(../../../images/header__logo.svg);
+}

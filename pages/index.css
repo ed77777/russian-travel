@@ -1,0 +1,20 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+
+
+section, header, footer {
+    outline: solid 1px red;
+}
+
+div, p, h1, h2, h3 {
+    outline: solid 1px blue;
+}
+
+body {
+    background: #2A2C2F;
+    color: white;
+}

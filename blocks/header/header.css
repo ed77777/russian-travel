@@ -1,0 +1,9 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang-link/header__lang-link.css);
+
+.header {
+    position: relative;
+    margin: 28px auto 0;
+    width: 1184px;
+    height: 82px;
+}
