@@ -1,8 +1,4 @@
-.cover__overlay {
-    background-color: #2A2C2F;
-    height: 740px;
-    width: 1184px;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
+.cover__overlay {  
+    position: relative;
 }
+

@@ -1,0 +1,9 @@
+.intro__list {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.intro__list:first-of-type {c
+    margin-top: 33px;
+}

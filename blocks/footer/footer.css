@@ -1,2 +1,10 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
+
+.footer {
+    height: 18px;
+    width: 1184px;
+    position: relative;
+    margin: 92px auto;
+    padding-bottom: 24px;
+}
