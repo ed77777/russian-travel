@@ -1,9 +1,13 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 
 section, header, footer {
@@ -12,9 +16,12 @@ section, header, footer {
 
 div, p, h1, h2, h3 {
     outline: solid 1px blue;
+    margin: 0;
 }
 
-body {
+.page {
     background: #2A2C2F;
     color: white;
+    font-family: 'Inter';
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
