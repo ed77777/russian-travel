@@ -6,7 +6,7 @@
 .lead {
     display: flex;
     flex-direction: column;
-    width: 984px;
-    min-height: 1005px;
+    max-width: 984px;
+    /* min-height: 1005px; */
     margin: 56px auto;
 }

@@ -4,8 +4,13 @@
 
 
 .intro {
-    margin: 114px auto;
-    /* margin-left: 114px; */
-    width: 690px;
+    margin: 114px calc(max(100vw - 1280px, 0px)/2 + 48px);
+    max-width: 690px;
     min-height: 429px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 114px 48px;
+    }  
 }

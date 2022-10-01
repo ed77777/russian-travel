@@ -1,0 +1,18 @@
+.places__url-heading {
+  font-size: 12px;
+  line-height: 20.4px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

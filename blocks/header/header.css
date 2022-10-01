@@ -5,6 +5,6 @@
 .header {
     position: relative;
     margin: 28px auto 0;
-    width: 1184px;
+    max-width: 1184px;
     height: 82px;
 }

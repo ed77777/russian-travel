@@ -22,6 +22,5 @@ div, p, h1, h2, h3 {
 .page {
     background: #2A2C2F;
     color: white;
-    font-family: 'Inter';
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Inter', Arial, sans-serif;
 }
