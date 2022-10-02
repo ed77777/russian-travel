@@ -1,8 +1,16 @@
 .cover__background {
-  width: 1184px;
-  height: 740px;
+  display: block;
+  max-width: 1184px;
+  /* min-height: 740px; */
   background-image: url(../../../images/cover__background.png);
+  /* background-color: aqua; */
   position: relative;
+  background-size: cover;
+  /* padding-top: max(56.25%, 740px); */
+  padding-bottom: 245px;
+  /* height: 0; */
+  text-decoration: none;
+  color: white;
 }
 
 .cover__background::before {

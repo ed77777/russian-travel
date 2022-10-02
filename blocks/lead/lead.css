@@ -4,10 +4,10 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     max-width: 984px;
     /* min-height: 1005px; */
     margin: 56px auto;
-    display: none;
+    /* display: none; */
 }
