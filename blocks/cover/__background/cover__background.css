@@ -6,9 +6,7 @@
   /* background-color: aqua; */
   position: relative;
   background-size: cover;
-  /* padding-top: max(56.25%, 740px); */
-  padding-bottom: 245px;
-  /* height: 0; */
+  padding-bottom: calc(100% - 971px);
   text-decoration: none;
   color: white;
 }
@@ -27,4 +25,11 @@
 
 .cover__background:hover::before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1028px) {
+  .cover__background {
+    max-width: 1024px;
+    padding-bottom: 0;
+  }
 }
