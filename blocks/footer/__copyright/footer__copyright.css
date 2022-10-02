@@ -4,22 +4,23 @@
   line-height: 18px;
   font-weight: 400;
   margin-right: 18px;
+  /* color: blue; */
+  
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__links {
-    right: 0;
-    top: 2px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__links {
+@media screen and (max-width: 768px) {
+  .footer__copyright {
     left: 16px;
     bottom: 24px;
+    /* color: red; */
     font-size: 14px;
     line-height: 14px;
   }
 }
+
+@media screen and (min-width: 768px) {
+    .footer__copyright {
+        right: 0;
+        top: 2px;
+    }
+  }

@@ -6,9 +6,27 @@
 @import url(./__link/places__link.css);
 
 .places {
- display: grid;
- grid-template-rows: 660px 584px 584px 660px 584px;
- row-gap: 80px;
- width: 984px;
- margin: 92px auto;
+  display: grid;
+  grid-template-rows: 660px 584px 584px 660px 584px;
+  row-gap: 80px;
+  width: 984px;
+  margin: 92px auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .places {
+    grid-template-rows: 640px 564px 564px 640px 564px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    grid-template-rows: 660px 584px 584px 660px 584px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    grid-template-rows: 660px 584px 584px 660px 584px;
+  }
 }
