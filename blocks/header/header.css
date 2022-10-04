@@ -1,8 +1,28 @@
-
-
 .header {
-    position: relative;
-    margin: 28px auto 0;
-    max-width: 1184px;
-    height: 82px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px auto 0;
+  max-width: 1184px;
+  min-height: 52px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    max-width: 928px;
+    min-height: 52px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 720px;
+    min-height: 52px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 288px;
+    min-height: 42px;
+  }
 }

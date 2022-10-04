@@ -1,26 +1,12 @@
 .footer__copyright {
-  position: absolute;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 16px;
   font-weight: 400;
-  margin-right: 18px;
-  /* color: blue; */
-  
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    left: 16px;
-    bottom: 24px;
-    /* color: red; */
     font-size: 14px;
     line-height: 14px;
   }
 }
-
-@media screen and (min-width: 768px) {
-    .footer__copyright {
-        right: 0;
-        top: 2px;
-    }
-  }

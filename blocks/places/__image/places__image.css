@@ -1,5 +1,3 @@
 .places__image {
-    /* object-fit: contain; */
-    width: 100%;
-    /* visibility: hidden; */
+  width: 100%;
 }

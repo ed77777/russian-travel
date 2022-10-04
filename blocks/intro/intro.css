@@ -1,13 +1,27 @@
 .intro {
-  margin-top: 114px;
-  /* margin-left: calc(max(100vw - 1280px, 0px)/2 + 48px); */
-  margin-left: 148px;
+  margin-top: 92px;
+  margin-left: calc(max(100vw - 1280px, 0px) / 2 + 148px);
   max-width: 690px;
   min-height: 429px;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

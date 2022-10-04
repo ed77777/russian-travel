@@ -1,23 +1,13 @@
 .header__logo {
-  position: absolute;
   width: 176px;
   height: 52px;
-  top: 28px;
-  left: 48px;
   background-image: url(../../../images/header__logo.svg);
+  background-size: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .header__logo {
-      left: 24px;
-    }
-  }
-
-@media screen and (max-width: 320px) {
   .header__logo {
     width: 142px;
     height: 42px;
-    top: 16px;
-    left: 16px;
   }
 }

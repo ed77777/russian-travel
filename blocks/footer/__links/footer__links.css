@@ -1,13 +1,13 @@
 .footer__links {
-    display: flex;
-    gap: 18px;
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  gap: 18px;
+  padding: 0;
 }
 
-
 @media screen and (max-width: 768px) {
-    .footer__links {
-      flex-direction: column;
-    }
+  .footer__links {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
   }
+}
