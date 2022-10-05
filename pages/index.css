@@ -10,7 +10,6 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
@@ -42,6 +41,7 @@
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__paragraphs/places__paragraphs.css);
 
 /* section, header, footer {
     outline: solid 1px red;
