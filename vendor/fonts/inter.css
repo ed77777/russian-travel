@@ -25,3 +25,21 @@
   src: url("Inter-Black.woff2?v=3.19") format("woff2"),
     url("Inter-Black.woff?v=3.19") format("woff");
 }
+
+section,
+header,
+footer {
+  outline: solid 1px red;
+}
+
+div,
+p,
+h1,
+h2,
+h3,
+img,
+nav {
+  outline: solid 1px blue;
+}
+
+
