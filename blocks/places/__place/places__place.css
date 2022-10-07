@@ -1,7 +1,6 @@
 .places__place {
   display: grid;
   grid-template-columns: 460px auto;
-  grid-template-rows: auto auto;
   row-gap: 48px;
   column-gap: 40px;
   max-width: 984px;
@@ -10,7 +9,6 @@
 @media screen and (max-width: 1280px) {
   .places__place {
     grid-template-columns: 440px auto;
-    grid-template-rows: auto auto;
     column-gap: 32px;
     max-width: 928px;
   }
@@ -19,7 +17,6 @@
 @media screen and (max-width: 1024px) {
   .places__place {
     grid-template-columns: 340px auto;
-    grid-template-rows: auto auto;
     max-width: 720px;
   }
 }

@@ -2,7 +2,7 @@
   margin-top: 92px;
   margin-left: calc(max(100vw - 1280px, 0px) / 2 + 148px);
   max-width: 690px;
-  min-height: 429px;
+  /* min-height: 429px; */
 }
 
 @media screen and (max-width: 1280px) {

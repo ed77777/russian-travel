@@ -25,12 +25,13 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__list-figure/intro__list-figure.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 
 @import url(../blocks/photo-grid/__items/photo-grid__item.css);
 
@@ -43,29 +44,4 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraphs/places__paragraphs.css);
 
-/* section, header, footer {
-    outline: solid 1px red;
-}
-
-div, p, h1, h2, h3, img, nav {
-    outline: solid 1px blue;
-    margin: 0;
-} */
-
-.page {
-  background: #2a2c2f;
-  color: white;
-  font-family: "Inter", Arial, sans-serif;
-}
-
-div,
-p,
-h1,
-h2,
-h3,
-header,
-footer,
-nav {
-  margin: 0;
-  padding: 0;
-}
+@import url(../blocks/page/page.css);

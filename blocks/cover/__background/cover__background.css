@@ -1,14 +1,14 @@
 .cover__background {
   display: block;
   max-width: 1184px;
-  max-height: 740px;
+  /* max-height: 740px; */
   min-height: 200px;
   background-image: url(../../../images/cover__background.png);
   position: relative;
   background-size: cover;
   text-decoration: none;
   color: white;
-  height: calc(100vw/1.6);
+  height: calc(100vw/1.73);
   z-index: 1;
 }
 

@@ -3,7 +3,7 @@
   grid-template-rows: 660px 584px 584px 660px 584px;
   row-gap: 80px;
   max-width: 984px;
-  margin: 92px auto;
+  margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1280px) {
