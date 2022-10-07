@@ -9,6 +9,7 @@
   text-decoration: none;
   color: white;
   height: calc(min(100vw/1.73, 740px));
+  margin: 0 auto;
   z-index: 1;
 }
 
