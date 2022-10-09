@@ -1,6 +1,6 @@
 .intro {
   margin-top: 92px;
-  margin-left: 148px;
+  margin-left: calc(max(100% - 1280px, 0px)/2 + 148px);
   max-width: 690px;
 }
 
