@@ -1,6 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/inter.css);
 
+@import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -43,34 +45,3 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraphs/places__paragraphs.css);
-
-@import url(../blocks/page/page.css);
-
-section,
-header,
-footer {
-  outline: solid 1px red;
-}
-
-div,
-p,
-h1,
-h2,
-h3,
-img,
-nav {
-  outline: solid 1px blue;
-  margin: 0;
-}
-
-div,
-p,
-h1,
-h2,
-h3,
-header,
-footer,
-nav {
-  margin: 0;
-  padding: 0;
-}

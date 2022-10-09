@@ -2,28 +2,28 @@
   display: flex;
   justify-content: space-between;
   margin: 28px auto 0;
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   min-height: 52px;
-
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header {
-    max-width: 928px;
-    /* background-color: blue; */
+    max-width: min(calc(100% - 96px), 928px);
+    margin: 28px auto 0;
   }
 }
 
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1023px) {
   .header {
-    max-width: 720px;
-    /* background-color: red; */
+    max-width: calc(100% - 48px);
+    max-width: min(calc(100% - 48px), 928px);
+    margin: 28px auto 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
-    max-width: 288px;
+    max-width: calc(100% - 32px);
     min-height: 42px;
     margin: 16px auto 0;
   }
