@@ -1,8 +1,10 @@
 .intro {
   margin-top: 92px;
-  margin-left: calc(max(100vw - 1280px, 0px) / 2 + 148px);
+  margin-left: 148px;
+  /* margin-left: calc(max(100vw - 1280px, 0px) / 2 + 148px); */
+  /* margin-left: calc(max(100vw - 1280px, 0px); */
+  /* margin-left: calc(100vw); */
   max-width: 690px;
-  /* min-height: 429px; */
 }
 
 @media screen and (max-width: 1280px) {
@@ -23,5 +25,6 @@
   .intro {
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 64px;
   }
 }
