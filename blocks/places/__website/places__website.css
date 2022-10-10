@@ -3,6 +3,12 @@
   flex-direction: column;
   justify-content: end;
   gap: 12px;
-  margin: 0 auto;
-  min-width: 288px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    max-width: 288px;
+    margin: 0 auto;
+  }
 }
