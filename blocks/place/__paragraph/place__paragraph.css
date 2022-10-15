@@ -1,20 +1,20 @@
-.places__paragraph {
+.place__paragraph {
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1023px) {
-  .places__paragraph {
+@media screen and (max-width: 768px) {
+  .place__paragraph {
     max-width: 352px;
     font-size: 16px;
     line-height: 26px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .places__paragraph {
+@media screen and (max-width: 320px) {
+  .place__paragraph {
     max-width: 288px;
     font-size: 16px;
     line-height: 26px;
