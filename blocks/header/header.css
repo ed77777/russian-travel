@@ -9,14 +9,12 @@
 @media screen and (max-width: 1279px) {
   .header {
     max-width: min(calc(100% - 96px), 928px);
-    margin: 28px auto 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header {
     max-width: min(calc(100% - 48px), 928px);
-    margin: 28px auto 0;
   }
 }
 
