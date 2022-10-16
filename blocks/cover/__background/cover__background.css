@@ -1,7 +1,6 @@
 .cover__background {
   display: block;
   max-width: 1184px;
-  /* max-height: 740px; */
   min-height: 200px;
   background-image: url(../../../images/cover__background.png);
   position: relative;
